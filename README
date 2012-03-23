@@ -1,0 +1,8 @@
+README for missionaries and cannibals problem
+
+The goal of the missionaries and cannibals problem is to move all missionaries and cannibals to the other side of the river without having the cannibals outnumber the missionaries at any point in the transfer.
+
+Three missionaries and three cannibals start on the east side of the river. There is a boat on the east bank of the river. The boat has maximum capacity 2. You must find a way to move all 3 cannibals and all 3 missionaries to the west side of the river without the cannibals outnumbering the missionaries on either side of the river. The boat must have at least 1 occupant to move to either side of the river. The game is over when there are 3 missionaries and 3 cannibals on the west bank of the river.
+
+This problem was solved using the breadth first search algorithm (bfs_graph.py) and a driver class (cross_river.py)
+
